@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chalice Dungeon - Gems</title>
+</head>
+<body>
+    <ul>
+    {% for gem in gems %}
+        <li>Glyph:{{ gem.glyph }} Dungeon Type:{{ gem.dungeon_type }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
